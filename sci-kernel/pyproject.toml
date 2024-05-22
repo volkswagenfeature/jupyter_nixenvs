@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "my-sci-dev-env"
+version = "0.0.0"
+description = "A development enviroment for literate programming in my obsidian notes"
+authors = ["volkswagenfeature"]
+
+[tool.poetry.dependencies]
+jupytext = "*"
+sympy = "*"
+ipython = "*"
+ipykernel = {extras = ["notebook"], version = "*"}
+urllib3 = "*"
+python = ">=3.10"
+
+##Pweave = "*"
+notedown = "*"
+##knotr = "*"
+
+[tool.poetry.dev-dependencies]
+# build systems for dependencies
+hatchling = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0" ]
+build-backend = "poetry.core.masonry.api"

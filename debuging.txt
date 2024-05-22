@@ -1,0 +1,8 @@
+May be a "metadata package" thing for poetry.
+https://github.com/python-poetry/poetry/issues/9244
+refers to
+https://github.com/python-poetry/poetry/issues/9191
+which might be involved in the fix.
+
+
+What are 
